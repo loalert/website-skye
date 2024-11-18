@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Skye</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script> <!-- Link to the JS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Skye</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="contact.html">Contactez-Nous</a></li>
+                <li><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2>Votre Panier</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically injected here -->
+            </div>
+            <button onclick="checkout()">Valider la Commande</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Skye. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
